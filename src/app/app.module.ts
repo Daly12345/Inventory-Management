@@ -11,6 +11,7 @@
  import { ProductsListComponent } from './products-list/products-list.component';
  import{ProductDepartmentComponent} from './product-department/product-department.component';
 
+
  @NgModule({
  declarations: [
  AppComponent,
@@ -18,7 +19,8 @@
  PriceDisplayComponent,
  ProductRowComponent,
  ProductsListComponent,
- ProductDepartmentComponent
+ ProductDepartmentComponent,
+ 
  ],
  imports: [
  BrowserModule,
